@@ -48,7 +48,7 @@ export default function MoiveNight() {
           <p>access their own to-do data.</p>
           <div className="workLinks">
             <a
-              href="https://github.com/junwaa-sys/to-do"
+              href="https://github.com/junwaa-sys/movie-night"
               target="_blank"
               rel="noreferrer"
             >
@@ -59,7 +59,7 @@ export default function MoiveNight() {
               ></span>
             </a>
             <a
-              href="https://to-do-production-9b30.up.railway.app/"
+              href="https://movie-night-production.up.railway.app/"
               target="_blank"
               rel="noreferrer"
             >
