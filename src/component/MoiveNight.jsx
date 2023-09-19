@@ -44,8 +44,7 @@ export default function MoiveNight() {
           </p>
           <p>store in db generated movie for future access</p>
           <h3>Coming Next ..</h3>
-          <p>rating, and review function will come next</p>
-          <p>access their own to-do data.</p>
+          <p>rating, and review features will come next</p>
           <div className="workLinks">
             <a
               href="https://github.com/junwaa-sys/movie-night"
