@@ -16,7 +16,7 @@ export default function Words() {
                 data-icon="teenyicons:javascript-outline"
                 data-width="20"
               ></span>
-              <h2>JavaScripts</h2>
+              <h4>JavaScripts</h4>
             </div>
             <div className="stackBox">
               <span
