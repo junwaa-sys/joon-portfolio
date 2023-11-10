@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../imgs/movie-night.jpg'
+import img from '../imgs/words.jpg'
 
 export default function Words() {
   return (
@@ -14,7 +14,7 @@ export default function Words() {
               <span
                 className="iconify"
                 data-icon="teenyicons:javascript-outline"
-                data-width="50"
+                data-width="20"
               ></span>
               <h2>JavaScripts</h2>
             </div>
