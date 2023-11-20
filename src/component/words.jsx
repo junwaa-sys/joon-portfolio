@@ -7,7 +7,7 @@ export default function Words() {
       <div className="workContainer">
         <img className="screenshot" src={img} alt="screen capture" />
         <div className="description">
-          <h2>Movie Night</h2>
+          <h2>Words</h2>
           <h3>Tech Used ..</h3>
           <div className="stackContainer">
             <div className="stackBox">
@@ -52,7 +52,7 @@ export default function Words() {
             </div>
           </div>
           <h3>Description</h3>
-          <p>Developed for my daughter to practice spelling</p>
+          <p>Developed for my daughter for spelling practice</p>
           <h3>Coming Next ..</h3>
           <p>online multiplayer word bingo games</p>
           <div className="workLinks">

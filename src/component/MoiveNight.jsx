@@ -36,13 +36,12 @@ export default function MoiveNight() {
             </div>
           </div>
           <h3>Description</h3>
-          <p>For those who wants to kill time watching movie but</p>
-          <p>cannot decide which to watch.</p>
-          <p>This is application to generate random movie from</p>
           <p>
+            For those who wants to kill time watching movie but cannot decide
+            which to watch This is application to generate random movie from
             external api on https://rapidapi.com/SAdrian/api/moviesdatabase/
+            store in db generated movie for future access
           </p>
-          <p>store in db generated movie for future access</p>
           <h3>Coming Next ..</h3>
           <p>rating, and review features will come next</p>
           <div className="workLinks">

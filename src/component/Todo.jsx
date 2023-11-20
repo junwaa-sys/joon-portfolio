@@ -63,7 +63,7 @@ export default function Todo() {
               ></span>
             </a>
             <a
-              href="https://to-do-production-9b30.up.railway.app/"
+              href="https://to-do-production-1798.up.railway.app/"
               target="_blank"
               rel="noreferrer"
             >

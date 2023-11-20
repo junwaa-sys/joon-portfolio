@@ -58,18 +58,26 @@ section button:hover {
 
 section .workContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center; 
   width: 50vw;
   height: 50vh;
   margin-top: 5%;
 }
 
 section .workContainer img{
-  width: 30vw;
+  min-width: 15vw;
+  max-width: 30vw;
 }
 
 
 section .description {
-  margin-left: 2rem;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 2rem;  
+  width: 50vw;
 }
 
 section .description h2 {
