@@ -8,7 +8,7 @@ ul {
   list-style: none;
 }
 
-body {
+body {   
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -21,13 +21,176 @@ body {
   background-repeat: no-repeat;  
   background-size: cover;    
   min-height: 100vh;
+  min-width: fit-content;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-section {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: aquamarine;
+  padding-top: 5rem;
+}
+
+.main-container h1 {
+  font-size: 2rem;
+  padding-top: 5rem;
+  margin-bottom: 40px;
+}
+
+.main-container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.main-container section .stackContainer {
+  margin-top: 4rem;  
+  margin-bottom: 4rem;
+  display: flex;  
+}
+
+.main-container section .stackBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.main-container section button {
+  margin-top: 25px;
+  color: aquamarine;
+  position: relative;
+  font-size: 1.5rem;
+  cursor: pointer;  
+  background: none;
+  box-shadow: 1px;
+  border-width: 2px;
+  padding: 2px;
+}
+
+.main-container section button:hover {
+  opacity: 50%;  
+}
+
+.main-container section .workContainer img {
+  min-width: 15vw;
+  max-width: 30vw;
+}
+
+.main-container section .workContainer .description {
+  min-width: 15vw;
+  max-width: 30vw;
+}
+
+.main-container section .workContainer .workLinks {
+  margin-top: 100px;
+}
+
+/* .content {
+  color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;  
+}
+
+.content h1 {
+  font-size: 2rem;
+}
+
+.content button {
+  margin-top: 25px;
+  color: aquamarine;
+  position: relative;
+  font-size: 1rem;
+  cursor: pointer;  
+  background: none;
+  box-shadow: 1rem;
+  border-width: 0rem;
+}
+
+.content button:hover {    
+  opacity: 50%;    
+}
+
+.content .workContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 50vw;
+  height: 50vh;
+  margin-top: 5%;
+}
+
+.content .workContainer img{
+  min-width: 15vw;
+  max-width: 30vw;
+}
+
+
+.content .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 2rem;  
+  width: 50vw;
+}
+
+.content .description h2 {
+  margin-bottom: 1.5rem;
+   
+}
+
+.content .description h3 {
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+   
+}
+
+
+.content .stackContainer {  
+  margin-top: 4rem;  
+  display: grid;  
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;  
+  grid-gap: 1rem;  
+  column-gap: 2rem;
+}
+
+.content .stackContainer .stackBox{
+  display: flex;
+  align-items: center;
+  gap: 0.51rem;  
+
+}
+
+.content .workContainer .description .stackContainer{
+  margin-top: 0.5rem;        
+  display: flex;      
+  column-gap: 0.5rem;
+}
+
+.content .workContainer .description .workLinks {
+  margin-top:2rem;
+  font-size: 3rem;
+  display: flex;
+  gap: 5%;
+
+  
+  
+} */
+
+/* section {
   color: aquamarine;
   display: flex;
   align-items: center;
@@ -41,7 +204,7 @@ section h1 {
 }
 
 section button {
-  margin-top: 50px;
+  margin-top: 25px;
   color: aquamarine;
   position: relative;
   font-size: 1rem;
@@ -123,4 +286,4 @@ section .workContainer .description .workLinks {
 
   
   
-}
+} */

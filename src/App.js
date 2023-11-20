@@ -6,12 +6,14 @@ import AboutMe from './component/AboutMe'
 
 function App() {
   return (
-    <div>
+    <>
       <TopNav />
-      <Home />
-      <Works />
-      <AboutMe />
-    </div>
+      <div className="main-container">
+        <Home />
+        <Works />
+        <AboutMe />
+      </div>
+    </>
   )
 }
 

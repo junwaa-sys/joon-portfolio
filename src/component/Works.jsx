@@ -7,10 +7,13 @@ import Words from './words'
 export default function Works() {
   return (
     <>
-      <Words />
-      <MoiveNight />
-      <PFO />
-      <Todo />
+      <section id="projectsSection">
+        <h1>PROJECTS</h1>
+        <Words />
+        <MoiveNight />
+        <PFO />
+        <Todo />
+      </section>
     </>
   )
 }

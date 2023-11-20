@@ -4,7 +4,6 @@ import img from '../imgs/pfo.jpg'
 export default function PFO() {
   return (
     <section id="projectsSection">
-      <h1>PROJECTS</h1>
       <div className="workContainer">
         <img className="screenshot" src={img} alt="screen capture" />
         <div className="description">
